@@ -1,0 +1,268 @@
+2025-01-17 02:20:15,745 - INFO - 処理するファイル数: 1
+2025-01-17 02:20:15,745 - INFO - [1/1] 開始: 33410_202501161600.zip のダウンロード, URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-17 02:20:16,259 - ERROR - ファイルのダウンロード中にエラーが発生しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59 エラー: 403 Client Error: Forbidden for url: https://databank-sacra.s3.amazonaws.com/trial_realtime/text_30-59.txt?AWSAccessKeyId=ASIAXHAU5457HTGNKBOD&Signature=rbwYakK2xY5LzoYbZhiTzcJCEnY%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEFkaDmFwLW5vcnRoZWFzdC0xIkYwRAIgQ6Ax55Dv9cHi6RFr%2FR0ltXnnD0Jhvjn%2BFRCGDpvirMoCIHSFascLhUn9YFB%2F4OuUwkKOM5Wk597HWYu0LVEQjbFjKsIFCFIQBBoMNDk2MTEyNjI1NTM0IgyxkSf9adj%2FQ0vSLwcqnwWk95ENLW45EBZ4Ox4YAy4wVOqCgrA8yDfwQm%2Fdz5aVpbLsfKC%2BsI6xAN5c2feG6%2FFrJHqi96kmJn7wphpcrgIOghRfdB9Fnu4dAupxBLJchF1UZqxk7iOg9TKyK9PIJh2w9yXBZ5yafp0iBn1%2Bp8UunYVQv1yaMa5WhBa1SDlHy6EsfwvNMkaFYqEIMm1cK5ljzyiHEFZlE1scUXUM5d7bPNygQDR9RsaSKm70%2F%2BMh44oIKg%2Fw0AT1%2BLfZc8Rti5FjEucF74%2F%2FFA%2FMBUzZr1XxCFOx%2Ft1LdS6qeBVN%2BVF6p%2Brnl7F67Iym9mSwOAqAIbpwRpJid9twsWniecbR%2FcDAuFXt0gz1unQdni%2FoVFD2%2BiquD%2BjruTMKcLV8q7bfLKhMXCCWQIazfY%2FVQd5%2FBmMjhlu39DvEovW%2FMKi7ccUZMQO%2BfsnlXaS5Ubdxjp4xNKgLP40wg3IU%2FDictyWVN9hYiBDAQf5oloFENkxKq1RZS1q7cIwMyYUPZsrhCInl2xUx%2B24VfTiTjN0WJa296tqckPtlzYqZvRjVBXNMC83OdxQxYXvRnpzWuoN8QX78T%2B3%2BKkdW0tWztBwJ4bNufj0n2Fbia0RcNNNwa6WVxTAbLYm1M3KOrOpfFyXMHIwdqQainyY8b8cV2%2BcIFkKohsvEOSxR9NNfcHmfN1WkrHx6Vnvs%2Bd5ye6nU3Gr%2BGBcn2eJfm9%2Bc5uT8ovoODYRAWQ09p6LugofEgl6ObFC3l9Fblrz%2F9AbdXWvcLn62ULiYEuv9QoFl8%2FwnDlNiLlwad6flyKghWxTLc5e0JvfTQTTgG8iMwjz3%2BNPI%2FXlqivacNGrh8CKR3zT8GG77dggPStQEb%2BQRo11mQ%2FTOxtQGBE5Kxsjy334Esj8NZ7gllHHICzCV2aa8BjqyAbx1HTG17X034Q1y84sF%2F0k3I2IvTKEz4ygPen02ivOBcdZfMBM2qZwYWmKbd7HkZB5lXBGn13PVAY%2B6vKMCWo3%2F41ZO64%2B9Ys5T5VcOxb5eZREMOeQKQDudeKmhWzp4RanmnY7ScXUAtXAURKN7OHzpr1b4gtkZq%2B6lMiGOcVlu7JpQsx9bVIHv8JnXiRY%2B9k3L9%2BVVldC2lMjnoYSwhe9upf%2BB6MGKkggPqtrA7XE5iKo%3D&Expires=1737079202
+2025-01-17 02:20:16,260 - INFO - 5秒後に再試行します... (Attempt 2/3)
+2025-01-17 02:20:21,328 - ERROR - ファイルのダウンロード中にエラーが発生しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59 エラー: 429 Client Error:  for url: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-17 02:20:21,329 - INFO - 10秒後に再試行します... (Attempt 3/3)
+2025-01-17 02:20:31,404 - ERROR - ファイルのダウンロード中にエラーが発生しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59 エラー: 429 Client Error:  for url: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-17 02:20:31,404 - ERROR - 最大再試行回数に達しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-17 02:20:31,405 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-17 02:25:47,247 - INFO - 処理するファイル数: 1
+2025-01-17 02:25:47,247 - INFO - [1/1] 開始: 33410_202501161600.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-17 02:25:47,942 - INFO - ダウンロード完了: https://httpbin.org/anything
+2025-01-17 02:25:47,942 - INFO - [1/1] 開始: 33410_202501161600.zip のS3へのアップロード, S3キー: 33410_202501161600.zip
+2025-01-17 02:25:47,949 - ERROR - AWS認証情報が見つかりません。
+2025-01-17 02:25:47,950 - WARNING - アップロードに失敗しました。ローカルファイルを保持します。./data/output/33410_202501161600.zip
+2025-01-17 02:29:01,745 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-17 02:29:01,887 - INFO - 処理するファイル数: 1
+2025-01-17 02:29:01,887 - INFO - [1/1] 開始: 33410_202501161600.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-17 02:29:02,555 - INFO - ダウンロード完了: https://httpbin.org/anything
+2025-01-17 02:29:02,556 - INFO - [1/1] 開始: 33410_202501161600.zip のS3へのアップロード, S3キー: 33410_202501161600.zip
+2025-01-17 02:29:02,892 - INFO - アップロード完了: 33410_202501161600.zip
+2025-01-17 02:29:02,892 - INFO - [1/1] 削除: ローカルファイルを削除しました。./data/output/33410_202501161600.zip
+2025-01-17 02:40:59,696 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-17 02:40:59,792 - INFO - 処理するファイル数: 2
+2025-01-17 02:40:59,792 - INFO - [1/2] 開始: 33410_202501161600.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-17 02:41:00,842 - INFO - ダウンロード完了: https://httpbin.org/anything
+2025-01-17 02:41:00,843 - INFO - [1/2] 開始: 33410_202501161600.zip のS3へのアップロード, S3キー: 33410_202501161600.zip
+2025-01-17 02:41:01,022 - INFO - アップロード完了: 33410_202501161600.zip
+2025-01-17 02:41:01,022 - INFO - [1/2] 削除: ローカルファイルを削除しました。./data/output/33410_202501161600.zip
+2025-01-17 02:41:01,023 - INFO - [2/2] 開始: 33411_202501161600.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-17 02:41:01,234 - INFO - ダウンロード完了: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-17 02:41:01,234 - INFO - [2/2] 開始: 33411_202501161600.zip のS3へのアップロード, S3キー: 33411_202501161600.zip
+2025-01-17 02:41:01,290 - INFO - アップロード完了: 33411_202501161600.zip
+2025-01-17 02:41:01,291 - INFO - [2/2] 削除: ローカルファイルを削除しました。./data/output/33411_202501161600.zip
+2025-01-17 02:41:44,916 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-17 02:41:45,065 - INFO - 処理するファイル数: 2
+2025-01-17 02:41:45,066 - INFO - [1/2] 開始: 33410_202501161600.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-17 02:41:45,768 - INFO - ダウンロード完了: https://httpbin.org/anything
+2025-01-17 02:41:45,768 - INFO - [1/2] 開始: 33410_202501161600.zip のS3へのアップロード, S3キー: 33410_202501161600.zip
+2025-01-17 02:41:45,931 - INFO - アップロード完了: 33410_202501161600.zip
+2025-01-17 02:41:45,931 - INFO - [1/2] 削除: ローカルファイルを削除しました。./data/output/33410_202501161600.zip
+2025-01-17 02:41:45,932 - INFO - [2/2] 開始: 33411_202501161600.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-17 02:41:46,029 - INFO - ダウンロード完了: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-17 02:41:46,029 - INFO - [2/2] 開始: 33411_202501161600.zip のS3へのアップロード, S3キー: 33411_202501161600.zip
+2025-01-17 02:41:46,085 - INFO - アップロード完了: 33411_202501161600.zip
+2025-01-17 02:41:46,086 - INFO - [2/2] 削除: ローカルファイルを削除しました。./data/output/33411_202501161600.zip
+2025-01-17 02:50:38,003 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-17 02:50:38,147 - INFO - 処理するファイル数: 2
+2025-01-17 02:50:38,147 - INFO - [1/2] 開始: 33410_202501161600.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-17 02:50:39,336 - INFO - ダウンロード完了: https://httpbin.org/anything
+2025-01-17 02:50:39,337 - INFO - [1/2] 開始: 33410_202501161600.zip のS3へのアップロード, S3キー: 33410_202501161600.zip
+2025-01-17 02:50:39,486 - INFO - アップロード完了: 33410_202501161600.zip
+2025-01-17 02:50:39,486 - INFO - [1/2] 削除: ローカルファイルを削除しました。./data/output/33410_202501161600.zip
+2025-01-17 02:50:39,487 - INFO - [2/2] 開始: 33411_202501161600.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-17 02:50:39,670 - INFO - ダウンロード完了: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-17 02:50:39,670 - INFO - [2/2] 開始: 33411_202501161600.zip のS3へのアップロード, S3キー: 33411_202501161600.zip
+2025-01-17 02:50:39,727 - INFO - アップロード完了: 33411_202501161600.zip
+2025-01-17 02:50:39,727 - INFO - [2/2] 削除: ローカルファイルを削除しました。./data/output/33411_202501161600.zip
+2025-01-17 02:52:44,684 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-17 02:52:44,825 - INFO - 処理するファイル数: 2
+2025-01-17 02:52:44,826 - INFO - [1/2] 開始: 33410_20240628-20240630.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-17 02:52:45,513 - INFO - ダウンロード完了: https://httpbin.org/anything
+2025-01-17 02:52:45,513 - INFO - [1/2] 開始: 33410_20240628-20240630.zip のS3へのアップロード, S3キー: 33410_20240628-20240630.zip
+2025-01-17 02:52:45,828 - INFO - アップロード完了: 33410_20240628-20240630.zip
+2025-01-17 02:52:45,829 - INFO - [1/2] 削除: ローカルファイルを削除しました。./data/output/33410_20240628-20240630.zip
+2025-01-17 02:52:45,829 - INFO - [2/2] 開始: 33411_20240701-20240703.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-17 02:52:45,876 - INFO - ダウンロード完了: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-17 02:52:45,876 - INFO - [2/2] 開始: 33411_20240701-20240703.zip のS3へのアップロード, S3キー: 33411_20240701-20240703.zip
+2025-01-17 02:52:45,930 - INFO - アップロード完了: 33411_20240701-20240703.zip
+2025-01-17 02:52:45,930 - INFO - [2/2] 削除: ローカルファイルを削除しました。./data/output/33411_20240701-20240703.zip
+2025-01-17 03:28:25,753 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-17 03:28:25,901 - INFO - 処理するファイル数: 3
+2025-01-17 03:28:25,901 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-17 03:28:26,799 - INFO - ダウンロード完了: https://httpbin.org/anything
+2025-01-17 03:28:26,799 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のS3へのアップロード, S3キー: 33410_20240628-20240630.zip
+2025-01-17 03:28:27,132 - INFO - アップロード完了: 33410_20240628-20240630.zip
+2025-01-17 03:28:27,133 - INFO - [1/3] 削除: ローカルファイルを削除しました。./data/output/33410_20240628-20240630.zip
+2025-01-17 03:28:27,133 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-17 03:28:27,191 - INFO - ダウンロード完了: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-17 03:28:27,191 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のS3へのアップロード, S3キー: 33411_20240701-20240703.zip
+2025-01-17 03:28:27,249 - INFO - アップロード完了: 33411_20240701-20240703.zip
+2025-01-17 03:28:27,249 - INFO - [2/3] 削除: ローカルファイルを削除しました。./data/output/33411_20240701-20240703.zip
+2025-01-17 03:28:27,249 - INFO - [3/3] 開始: 33412_20240704-20240706.zip のダウンロード, URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-17 03:28:27,440 - ERROR - ファイルのダウンロード中にエラーが発生しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59 エラー: 403 Client Error: Forbidden for url: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-17 03:28:27,440 - INFO - 5秒後に再試行します... (Attempt 2/3)
+2025-01-17 03:28:32,519 - ERROR - ファイルのダウンロード中にエラーが発生しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59 エラー: 403 Client Error: Forbidden for url: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-17 03:28:32,519 - INFO - 10秒後に再試行します... (Attempt 3/3)
+2025-01-17 03:28:42,594 - ERROR - ファイルのダウンロード中にエラーが発生しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59 エラー: 403 Client Error: Forbidden for url: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-17 03:28:42,594 - ERROR - 最大再試行回数に達しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-17 03:28:42,594 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-19 21:09:26,764 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-19 21:09:26,912 - INFO - 処理するファイル数: 3
+2025-01-19 21:09:26,912 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-19 21:09:27,715 - INFO - ダウンロード完了: https://httpbin.org/anything
+2025-01-19 21:09:27,715 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のS3へのアップロード, S3キー: 33410_20240628-20240630.zip
+2025-01-20 00:00:10,406 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-20 00:00:10,507 - INFO - 処理するファイル数: 3
+2025-01-20 00:00:10,507 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-20 00:00:11,439 - INFO - ダウンロード完了: https://httpbin.org/anything
+2025-01-20 00:00:11,440 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のS3へのアップロード, S3キー: 33410_20240628-20240630.zip
+2025-01-20 00:00:11,579 - INFO - アップロード完了: 33410_20240628-20240630.zip
+2025-01-20 00:00:11,580 - INFO - [1/3] 削除: ローカルファイルを削除しました。./data/output/33410_20240628-20240630.zip
+2025-01-20 00:00:11,580 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:00:11,750 - INFO - ダウンロード完了: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:00:11,750 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のS3へのアップロード, S3キー: 33411_20240701-20240703.zip
+2025-01-20 00:00:11,809 - INFO - アップロード完了: 33411_20240701-20240703.zip
+2025-01-20 00:00:11,809 - INFO - [2/3] 削除: ローカルファイルを削除しました。./data/output/33411_20240701-20240703.zip
+2025-01-20 00:00:11,809 - INFO - [3/3] 開始: 33412_20240704-20240706.zip のダウンロード, URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-20 00:00:12,171 - ERROR - ファイルのダウンロード中にエラーが発生しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59 エラー: 403 Client Error: Forbidden for url: https://databank-sacra.s3.amazonaws.com/trial_realtime/text_30-59.txt?AWSAccessKeyId=ASIAXHAU5457MEWBVQFO&Signature=luyjkzm%2BFVdpwq3MjzoC92MYHes%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEJ%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLW5vcnRoZWFzdC0xIkYwRAIgNhphJgR8DWbAfo1GKQk36lTdn1I7KC6syYf%2FUZYRAN0CIH8Qy%2B7nUKcKRSTNxq58QQE0aAsCTyfbjwKc1jV36qT%2BKssFCJj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBBoMNDk2MTEyNjI1NTM0IgyRGT3JHbtot7V0LC8qnwXp9dKe%2FvvkZ59p6VlNoJJCyqR%2FIvXZe3Gpf4tOLjDYjgO4kPPvuvD2A37TOK5Ypnkwrq9S8l5uNbAKDpncXaABb1El6UgY%2Fe4vy8PbbNmZ4u5ruQ6JEjUd8IANglnG9vGtH4FwDYUm3j183wztsiaakmM7PxqJhBhD4xFlkyBDb%2BqZI8f%2BO9EKGstX%2FvtbWd0mIM7Rj99Bz9%2FqCQdDyN35pmLNQWcAt1dt%2FYrZeZ895uSjbjPcFug3n47ZAQ7GycodnLXXFN0qbsCFTEpkfBtpIUExxYyE6nNWItwvvfT9YYwc%2Ft8bY7LSLCjC8QPSPShyy%2BV9S7acC28ldxVqLpUzX0ACTliQpm%2F%2Bil3v8EfFd5yN%2FCqnP1XncPs1TAU1pmCf5dAEFogAqFJ4MvPz%2FkwiuWapEmBs1QM0iu0IbXE%2BiwbbkyXYngewj7pwcYwQASe6a8PITNNvP0ifREUK7%2BFLygTu2el1r9mKu6QHlzkmRikhIt4I3rjlEs0MI59wAbDVGRZotq9Ce9Mhz1jR141MjyRZLj74ScSCw7kMoBTNS0F3Tz9wUWNQsasSVJCeRAXPkVOhSLYOuIXH6vF8PqEaPYQKU9NuNflE%2F9A8rP4%2F7PkpmCvGWAYwH8E%2F0mlvVjgbbghuHODrXJ%2BWdoH3u31D%2Bt3dZ4WHRr9877pSJouVHD2RByj9%2BrfYhKZqWz%2F8LcFb1tfwPyuBgSK3D8rgcCcFZslcGSNez9uQZCuYyX1Va5yyW7mXFFCqTE3S%2BK%2BquJrd30uXgM2IlhAxa4DQMH8BZUEg%2BTzye63FFGGT3kowY2Cg6oLL%2BkpRmjFS56eRCKcRi%2BjMkow0xRkylFb%2Fc%2B88shbTwCvvuRuZVfnZBDEJYWEWGza7bFP01Be87V46ezDQgLa8BjqyAd7Ajnx%2BO1roGK7%2BQtbvH4IuqrBSSdTnwAepBkvSwucjHfQq%2BV5k%2B2q0YG%2FV9x8Se7U7H67%2FF5uTcN7BK1nvBQgtqjrFc%2BK3uJbPKvCx6I7FDLBZyeyrGRwm7iILYBIQBf1f2B6uHvKxOOQusWCeVrAI8r8xUammJPJ1He%2B3f9zglhbxkvnd1D1ihh7yRAXlGc7gfr23CFvwws5C8sdWYsbzy5v5rnWOfYKN0Rto8Pf5kQE%3D&Expires=1737331202
+2025-01-20 00:00:12,171 - INFO - 5秒後に再試行します... (Attempt 2/3)
+2025-01-20 00:00:17,246 - ERROR - ファイルのダウンロード中にエラーが発生しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59 エラー: 429 Client Error:  for url: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-20 00:00:17,246 - INFO - 10秒後に再試行します... (Attempt 3/3)
+2025-01-20 00:00:27,360 - ERROR - ファイルのダウンロード中にエラーが発生しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59 エラー: 429 Client Error:  for url: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-20 00:00:27,360 - ERROR - 最大再試行回数に達しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-20 00:00:27,360 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-20 00:00:50,187 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-20 00:00:50,334 - INFO - 処理するファイル数: 3
+2025-01-20 00:00:50,335 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-20 00:00:51,019 - INFO - ダウンロード完了: https://httpbin.org/anything
+2025-01-20 00:00:51,019 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のS3へのアップロード, S3キー: 33410_20240628-20240630.zip
+2025-01-20 00:00:51,158 - INFO - アップロード完了: 33410_20240628-20240630.zip
+2025-01-20 00:00:51,158 - INFO - [1/3] 削除: ローカルファイルを削除しました。./data/output/33410_20240628-20240630.zip
+2025-01-20 00:00:51,158 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:00:51,214 - INFO - ダウンロード完了: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:00:51,215 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のS3へのアップロード, S3キー: 33411_20240701-20240703.zip
+2025-01-20 00:00:51,272 - INFO - アップロード完了: 33411_20240701-20240703.zip
+2025-01-20 00:00:51,272 - INFO - [2/3] 削除: ローカルファイルを削除しました。./data/output/33411_20240701-20240703.zip
+2025-01-20 00:00:51,272 - INFO - [3/3] 開始: 33412_20240704-20240706.zip のダウンロード, URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:00:51,329 - ERROR - ファイルのダウンロード中にエラーが発生しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29 エラー: 429 Client Error:  for url: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:00:51,330 - INFO - 5秒後に再試行します... (Attempt 2/3)
+2025-01-20 00:00:56,411 - ERROR - ファイルのダウンロード中にエラーが発生しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29 エラー: 429 Client Error:  for url: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:00:56,411 - INFO - 10秒後に再試行します... (Attempt 3/3)
+2025-01-20 00:01:06,478 - ERROR - ファイルのダウンロード中にエラーが発生しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29 エラー: 429 Client Error:  for url: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:01:06,478 - ERROR - 最大再試行回数に達しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:01:06,479 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:08:51,536 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-20 00:08:51,681 - INFO - 処理するファイル数: 3
+2025-01-20 00:08:51,682 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-20 00:08:51,682 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://httpbin.org/anything
+2025-01-20 00:08:51,682 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:08:51,682 - WARNING - ダウンロードに失敗しました。スキップします。URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:08:51,682 - INFO - [3/3] 開始: 33412_20240704-20240706.zip のダウンロード, URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:08:51,682 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:14:59,383 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-20 00:14:59,528 - INFO - 処理するファイル数: 3
+2025-01-20 00:14:59,528 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-20 00:14:59,528 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://httpbin.org/anything
+2025-01-20 00:14:59,528 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:14:59,528 - WARNING - ダウンロードに失敗しました。スキップします。URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:14:59,528 - INFO - [3/3] 開始: 33412_20240704-20240706.zip のダウンロード, URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:14:59,529 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:15:09,315 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-20 00:15:09,469 - INFO - 処理するファイル数: 3
+2025-01-20 00:15:09,470 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-20 00:15:09,470 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://httpbin.org/anything
+2025-01-20 00:15:09,470 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:15:09,470 - WARNING - ダウンロードに失敗しました。スキップします。URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:15:09,470 - INFO - [3/3] 開始: 33412_20240704-20240706.zip のダウンロード, URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:15:09,470 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:15:54,662 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-20 00:15:54,761 - INFO - 処理するファイル数: 3
+2025-01-20 00:15:54,761 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-20 00:15:54,761 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://httpbin.org/anything
+2025-01-20 00:15:54,761 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:15:54,761 - WARNING - ダウンロードに失敗しました。スキップします。URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:15:54,761 - INFO - [3/3] 開始: 33412_20240704-20240706.zip のダウンロード, URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:15:54,761 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:16:37,168 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-20 00:16:37,311 - INFO - 処理するファイル数: 3
+2025-01-20 00:16:37,312 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-20 00:16:37,312 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://httpbin.org/anything
+2025-01-20 00:16:37,312 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:16:37,312 - WARNING - ダウンロードに失敗しました。スキップします。URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:16:37,312 - INFO - [3/3] 開始: 33412_20240704-20240706.zip のダウンロード, URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:16:37,312 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:19:39,031 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-20 00:19:39,176 - INFO - 処理するファイル数: 3
+2025-01-20 00:19:39,177 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-20 00:19:39,177 - INFO - ダウンロード試行 1/3 - URL: https://httpbin.org/anything
+2025-01-20 00:19:49,160 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-20 00:19:49,303 - INFO - 処理するファイル数: 3
+2025-01-20 00:19:49,304 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-20 00:19:49,304 - INFO - ダウンロード試行 1/3 - URL: https://httpbin.org/anything
+2025-01-20 00:19:50,003 - INFO - ダウンロード完了: https://httpbin.org/anything
+2025-01-20 00:19:50,004 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のS3へのアップロード, S3キー: 33410_20240628-20240630.zip
+2025-01-20 00:19:50,203 - INFO - アップロード完了: 33410_20240628-20240630.zip
+2025-01-20 00:19:50,203 - INFO - [1/3] 削除: ローカルファイルを削除しました。./data/output/33410_20240628-20240630.zip
+2025-01-20 00:19:50,204 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:19:50,204 - INFO - ダウンロード試行 1/3 - URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:19:50,433 - INFO - ダウンロード完了: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:19:50,433 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のS3へのアップロード, S3キー: 33411_20240701-20240703.zip
+2025-01-20 00:19:50,497 - INFO - アップロード完了: 33411_20240701-20240703.zip
+2025-01-20 00:19:50,497 - INFO - [2/3] 削除: ローカルファイルを削除しました。./data/output/33411_20240701-20240703.zip
+2025-01-20 00:19:50,498 - INFO - [3/3] 開始: 33412_20240704-20240706.zip のダウンロード, URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:19:50,498 - INFO - ダウンロード試行 1/3 - URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:19:50,980 - INFO - ダウンロード完了: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:19:50,980 - INFO - [3/3] 開始: 33412_20240704-20240706.zip のS3へのアップロード, S3キー: 33412_20240704-20240706.zip
+2025-01-20 00:19:51,033 - INFO - アップロード完了: 33412_20240704-20240706.zip
+2025-01-20 00:19:51,034 - INFO - [3/3] 削除: ローカルファイルを削除しました。./data/output/33412_20240704-20240706.zip
+2025-01-20 00:35:31,232 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-20 00:35:31,378 - INFO - 処理するファイル数: 3
+2025-01-20 00:35:31,379 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-20 00:35:31,379 - INFO - ダウンロード試行 1/3 - URL: https://httpbin.org/anything
+2025-01-20 00:35:32,384 - INFO - ダウンロード完了: https://httpbin.org/anything
+2025-01-20 00:35:32,384 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のS3へのアップロード, S3キー: 33410_20240628-20240630.zip
+2025-01-20 00:35:32,696 - INFO - アップロード完了: 33410_20240628-20240630.zip
+2025-01-20 00:35:32,697 - INFO - [1/3] 削除: ローカルファイルを削除しました。./data/output/33410_20240628-20240630.zip
+2025-01-20 00:35:32,697 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:35:32,697 - INFO - ダウンロード試行 1/3 - URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:35:32,827 - INFO - ダウンロード完了: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:35:32,827 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のS3へのアップロード, S3キー: 33411_20240701-20240703.zip
+2025-01-20 00:35:32,884 - INFO - アップロード完了: 33411_20240701-20240703.zip
+2025-01-20 00:35:32,884 - INFO - [2/3] 削除: ローカルファイルを削除しました。./data/output/33411_20240701-20240703.zip
+2025-01-20 00:35:32,884 - INFO - [3/3] 開始: 33412_20240704-20240706.zip のダウンロード, URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:35:32,884 - INFO - ダウンロード試行 1/3 - URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:35:33,286 - ERROR - curlエラー: % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1677  100  1677    0     0   5964      0 --:--:-- --:--:-- --:--:--  5967
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 403
+2025-01-20 00:35:33,286 - WARNING - ダウンロード失敗: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29。5秒後に再試行します... (Attempt 2/3)
+2025-01-20 00:35:38,287 - INFO - ダウンロード試行 2/3 - URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:35:38,369 - ERROR - curlエラー: % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0    31    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 429
+2025-01-20 00:35:38,370 - WARNING - ダウンロード失敗: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29。10秒後に再試行します... (Attempt 3/3)
+2025-01-20 00:35:48,370 - INFO - ダウンロード試行 3/3 - URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:35:48,456 - ERROR - curlエラー: % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0    31    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 429
+2025-01-20 00:35:48,457 - ERROR - 最大再試行回数に達しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:35:48,457 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=00-29
+2025-01-20 00:36:05,187 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-01-20 00:36:05,330 - INFO - 処理するファイル数: 3
+2025-01-20 00:36:05,331 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のダウンロード, URL: https://httpbin.org/anything
+2025-01-20 00:36:05,331 - INFO - ダウンロード試行 1/3 - URL: https://httpbin.org/anything
+2025-01-20 00:36:06,068 - INFO - ダウンロード完了: https://httpbin.org/anything
+2025-01-20 00:36:06,068 - INFO - [1/3] 開始: 33410_20240628-20240630.zip のS3へのアップロード, S3キー: 33410_20240628-20240630.zip
+2025-01-20 00:36:06,320 - INFO - アップロード完了: 33410_20240628-20240630.zip
+2025-01-20 00:36:06,321 - INFO - [1/3] 削除: ローカルファイルを削除しました。./data/output/33410_20240628-20240630.zip
+2025-01-20 00:36:06,321 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のダウンロード, URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:36:06,321 - INFO - ダウンロード試行 1/3 - URL: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:36:06,382 - INFO - ダウンロード完了: http://www.nomadworks.co.jp/htmlsample/archive/win/sec8/index01.zip
+2025-01-20 00:36:06,382 - INFO - [2/3] 開始: 33411_20240701-20240703.zip のS3へのアップロード, S3キー: 33411_20240701-20240703.zip
+2025-01-20 00:36:06,436 - INFO - アップロード完了: 33411_20240701-20240703.zip
+2025-01-20 00:36:06,437 - INFO - [2/3] 削除: ローカルファイルを削除しました。./data/output/33411_20240701-20240703.zip
+2025-01-20 00:36:06,437 - INFO - [3/3] 開始: 33412_20240704-20240706.zip のダウンロード, URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-20 00:36:06,437 - INFO - ダウンロード試行 1/3 - URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-20 00:36:06,516 - ERROR - curlエラー: % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0    31    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 429
+2025-01-20 00:36:06,516 - WARNING - ダウンロード失敗: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59。5秒後に再試行します... (Attempt 2/3)
+2025-01-20 00:36:11,516 - INFO - ダウンロード試行 2/3 - URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-20 00:36:11,615 - ERROR - curlエラー: % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0    31    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 429
+2025-01-20 00:36:11,615 - WARNING - ダウンロード失敗: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59。10秒後に再試行します... (Attempt 3/3)
+2025-01-20 00:36:21,616 - INFO - ダウンロード試行 3/3 - URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-20 00:36:21,701 - ERROR - curlエラー: % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0    31    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 429
+2025-01-20 00:36:21,701 - ERROR - 最大再試行回数に達しました。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59
+2025-01-20 00:36:21,701 - WARNING - ダウンロードに失敗しました。スキップします。URL: https://odsapi-p.n-kishou.co.jp/databank-sacra-get?type=30-59

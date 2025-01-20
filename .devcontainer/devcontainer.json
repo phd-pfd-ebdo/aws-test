@@ -1,0 +1,35 @@
+{
+    "name": "Python AWS S3 Development Container",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "..",
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.pythonPath": "/usr/local/bin/python",
+                "terminal.integrated.shell.linux": "/bin/bash"
+            }
+        },
+        "extensions": [
+            "amazonwebservices.aws-toolkit-vscode",
+            "nickdemayo.vscode-json-editor",
+            "usernamehw.errorlens",
+            "mhutchie.git-graph",
+            "ms-python.python",
+            "ms-python.debugpy",
+            "GitHub.copilot",
+            "ms-toolsai.jupyter",
+            "formulahendry.code-runner",
+            "shd101wyy.markdown-preview-enhanced",
+            "mechatroner.rainbow-csv",
+            "janisdd.vscode-edit-csv",
+            "donjayamanne.githistory"
+        ]
+    },
+    "postCreateCommand": "pip install --no-cache-dir -r requirements.txt",
+    "remoteUser": "devuser",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspace/aws-test,type=bind,consistency=cached"
+    ]
+}
