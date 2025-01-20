@@ -3,7 +3,6 @@ import boto3
 import requests
 import pandas as pd
 from tqdm import tqdm
-import subprocess
 from botocore.exceptions import NoCredentialsError, ClientError
 from datetime import datetime
 import re
@@ -25,8 +24,8 @@ logging.basicConfig(
 S3_BUCKET_NAME = 'ebdo-nishimura-test'  # 置き換えてください
 S3_STORAGE_CLASS = 'STANDARD'             # 例: 'STANDARD', 'GLACIER', 'DEEP_ARCHIVE' など
 DOWNLOAD_DIR = './data/output/'                # ローカルのダウンロードディレクトリ
-CSV_FILE_PATH = './data/input/test.csv'                # URLリストが含まれるCSVファイルのパス
-RETRIES = 1                                # ダウンロード・アップロードの再試行回数
+CSV_FILE_PATH = './data/input/ods_download_url.csv'                # URLリストが含まれるCSVファイルのパス
+RETRIES = 0                                # ダウンロード・アップロードの再試行回数
 BACKOFF_FACTOR = 5                         # 再試行時のバックオフ時間（秒）
 
 # 環境変数からAPIキーを取得
@@ -60,42 +59,30 @@ def download_file(url, download_path, retries=3, backoff_factor=5):
     """
     ファイルをダウンロードし、指定されたパスに保存します。
     再試行機能を含みます。
-    curlを使用してダウンロードを実行します。
+    APIキーをヘッダーに追加します。
     """
+    headers = {
+        'x-api-key': API_KEY
+    }
     for attempt in range(1, retries + 1):
         try:
-            logging.info(f"ダウンロード試行 {attempt}/{retries} - URL: {url}")
-            # curlコマンドの作成
-            curl_command = [
-                'curl',
-                '-L',  # リダイレクトを追跡
-                url,
-                '-H', f'x-api-key: {API_KEY}',
-                '-o', download_path,
-                '-f',  # HTTPエラー時に失敗として扱う
-                '--retry', '0'  # curl自身の再試行を無効化
-            ]
-
-            # subprocessでcurlを実行
-            result = subprocess.run(curl_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-
-            if result.returncode == 0:
-                logging.info(f"ダウンロード完了: {url}")
-                return True
-            else:
-                error_message = result.stderr.decode().strip()
-                logging.error(f"curlエラー: {error_message}")
-                raise subprocess.CalledProcessError(result.returncode, curl_command, output=result.stdout, stderr=result.stderr)
-        except subprocess.CalledProcessError as e:
-            if attempt < retries:
-                wait = backoff_factor * attempt
-                logging.warning(f"ダウンロード失敗: {url}。{wait}秒後に再試行します... (Attempt {attempt + 1}/{retries})")
-                time.sleep(wait)
-            else:
-                logging.error(f"最大再試行回数に達しました。URL: {url}")
-                return False
-        except Exception as e:
-            logging.error(f"ファイルのダウンロード中に予期せぬエラーが発生しました。URL: {url} エラー: {e}")
+            with requests.get(url, headers=headers, stream=True, allow_redirects=True) as response:
+                response.raise_for_status()
+                total_size = int(response.headers.get('content-length', 0))
+                block_size = 1024  # 1 Kibibyte
+                progress_bar = tqdm(total=total_size, unit='iB', unit_scale=True, desc=os.path.basename(download_path))
+                with open(download_path, 'wb') as file:
+                    for data in response.iter_content(block_size):
+                        progress_bar.update(len(data))
+                        file.write(data)
+                progress_bar.close()
+                if total_size != 0 and progress_bar.n != total_size:
+                    logging.error(f"ダウンロードが完了しませんでした。URL: {url}")
+                    return False
+            logging.info(f"ダウンロード完了: {url}")
+            return True
+        except requests.exceptions.RequestException as e:
+            logging.error(f"ファイルのダウンロード中にエラーが発生しました。URL: {url} エラー: {e}")
             if attempt < retries:
                 wait = backoff_factor * attempt
                 logging.info(f"{wait}秒後に再試行します... (Attempt {attempt + 1}/{retries})")
@@ -140,7 +127,7 @@ def read_urls_from_csv(csv_path):
     CSVファイルからURLリストと関連情報を読み込みます。
     """
     try:
-        df = pd.read_csv(csv_path, encoding='shift-jis', dtype=str)
+        df = pd.read_csv(csv_path, dtype=str)
         required_columns = ['配信履歴ID', 'データ名', '期間', 'URL', '有効期限']
         for col in required_columns:
             if col not in df.columns:
@@ -175,8 +162,11 @@ def main():
         url = record['URL']
         expiration = record['有効期限']  # 現在は使用していませんが、必要に応じて使用可能
 
-        # '期間' を 'YYYYMMDDHHMM-YYYYMMDDHHMM' に変換
+        # '有効期限' を 'YYYYMMDDHHMM' に変換
+        # サンプルデータでは有効期限が単一の日付なので、時間も含めてフォーマット
         try:
+            # expiration_dt = datetime.strptime(expiration, '%Y年%m月%d日%H時')
+            # formatted_expiration = expiration_dt.strftime('%Y%m%d%H%M')
             formatted_expiration = parse_period(period_str)
         except ValueError as ve:
             logging.error(f"有効期限のフォーマットエラー: {expiration} エラー: {ve}")
